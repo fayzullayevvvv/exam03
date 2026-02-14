@@ -15,7 +15,7 @@ Ushbu exam Python OOP (Object-Oriented Programming) bo'yicha bilimingizni tekshi
 | # | Mavzu | Ball | Qiyinlik | Fayl |
 |---|-------|------|----------|------|
 | 1 | Book Class - Attributes & Methods | 35 | ⭐⭐ | [task01.md](task01.md) |
-| 2 | Cinema Booking - Nested Classes | 30 | ⭐⭐⭐ | [task02.md](task02.md) |
+| 2 | Cinema Booking - Composition | 30 | ⭐⭐⭐ | [task02.md](task02.md) |
 | 3 | Random Image Bot - Architecture | 35 | ⭐⭐⭐ | [task03.md](task03.md) |
 
 ---
@@ -27,11 +27,9 @@ Kutubxona tizimi uchun kitob klassini yarating.
 
 **O'rganiladi:**
 - Class va Constructor
-- Public attributes
 - Instance methods
 - Dunder methods (`__str__`, `__repr__`, `__eq__`, `__len__`, `__bool__`)
 - Input validation
-- State management
 
 ---
 
@@ -39,11 +37,9 @@ Kutubxona tizimi uchun kitob klassini yarating.
 Kinoteattr uchun chipta bron qilish tizimi.
 
 **O'rganiladi:**
-- Nested classes
 - Composition
 - Object relationships
 - Lifecycle management
-- Encapsulation
 
 ---
 
