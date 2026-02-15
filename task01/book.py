@@ -23,9 +23,9 @@ class Book:
 
     def borrow(self, user: str) -> None:
         if self.archived == True:
-            raise RuntimeError
+            raise RuntimeError()
         elif self.is_borrowed == True:
-            raise RuntimeError
+            raise RuntimeError()
         else:
             self.is_borrowed = True
             self.borrower = user
@@ -33,7 +33,7 @@ class Book:
 
     def return_book(self) -> None:
         if self.is_borrowed == False:
-            raise RuntimeError
+            raise RuntimeError()
         else:
             self.borrower = None
             self.is_borrowed = False
@@ -48,7 +48,7 @@ class Book:
 
     def archive(self) -> None:
         if self.is_borrowed == True:
-            raise RuntimeError
+            raise RuntimeError()
         else:
             self.archived = True
 
